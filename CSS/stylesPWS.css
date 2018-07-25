@@ -1,4 +1,56 @@
-h1
+h2
 {
-    color: red;
+    margin-top: 0;
+}
+
+.boxMenu
+{
+    width: 100%;
+    position: relative;
+}
+
+.menu
+{
+    border: 1px red solid;
+    text-align: right;
+    width: 25%;
+    position: fixed;
+    padding: 17% 2% 19.1% 1%;
+}
+
+.menu a
+{
+    display: block;
+    color: blue;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    padding: 1.5%;
+    margin-left: 15%;
+    
+}
+
+.myButton
+{
+    width: 20%;
+    font-size: 20px;
+    border-radius: 3em;
+    background-color: transparent;
+}
+
+.otraCaja
+{
+    border: 1px solid green;
+    position: absolute;
+    top: 713px;
+    left: 28.5%;
+
+}
+
+.inicio
+{
+    border: 1px solid blue;
+    position: absolute;
+    left: 28.5%;
+    padding: 7% 5% 7.4% 5%;
 }
