@@ -3,10 +3,74 @@ h2
     margin-top: 0;
 }
 
+img
+{
+    width: 100%;
+}
+
+
 .boxMenu
 {
     width: 100%;
     position: relative;
+}
+
+.containerButton
+{
+    font-size: 20px;
+    border-radius: 4em;
+    background-color: transparent;
+}
+
+.containerDescription
+{
+    position: absolute;
+    left: 50.7%;
+    width: 35%;
+    padding: 10% 7% 14.1% 7.17%;
+}
+
+.containerImage
+{
+    width: 22%;
+    left: 28.6%;
+    position: absolute;
+}
+
+.descriptionCV
+{
+    border: 1px solid green;
+    top: 98.7%;
+}
+
+.descriptionHobbie
+{
+    border: 1px solid blueviolet;
+    top: 156.3%;
+    
+}
+
+
+.imageCV
+{
+    border: 1px solid purple;
+    top: 98.7%;  
+}
+
+.imageHobbie
+{
+    border: 1px solid yellow;
+    top: 156.3%;  
+}
+
+.inicio
+{
+    border: 1px solid blue;
+    position: absolute;
+    left: 28.4%;
+    right: 0;
+    width: 60%;
+    padding: 20% 5% 23.1% 7%;
 }
 
 .menu
@@ -15,7 +79,7 @@ h2
     text-align: right;
     width: 25%;
     position: fixed;
-    padding: 17% 2% 19.1% 1%;
+    padding: 17% 2% 20.5% 1%;
 }
 
 .menu a
@@ -30,27 +94,14 @@ h2
     
 }
 
-.myButton
+.myButtonDescription
+{
+    width: 40%;
+}
+
+.myButtonProfile
 {
     width: 20%;
-    font-size: 20px;
-    border-radius: 3em;
-    background-color: transparent;
 }
 
-.otraCaja
-{
-    border: 1px solid green;
-    position: absolute;
-    top: 713px;
-    left: 28.5%;
 
-}
-
-.inicio
-{
-    border: 1px solid blue;
-    position: absolute;
-    left: 28.5%;
-    padding: 7% 5% 7.4% 5%;
-}
